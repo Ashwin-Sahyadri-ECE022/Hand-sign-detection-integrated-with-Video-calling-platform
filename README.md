@@ -68,20 +68,13 @@ Webcam → Hand Detection Model → Gesture Classification → Text Output
 
 ## Installation
 
-### 1. Clone Repository
-
-```bash
-git clone https://github.com/yourusername/hand-sign-video-call.git
-cd hand-sign-video-call
-```
-
-### 2. Install Dependencies
+### 1. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Setup Agora
+### 2. Setup Agora
 
 * Create account at [https://www.agora.io](https://www.agora.io)
 
