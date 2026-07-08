@@ -20,13 +20,13 @@ It’s specifically designed to empower **deaf and mute individuals**, making di
 ### 📖 Deep Dive Details
 
 In this repository we will be going through how to setup a hand sign detection model from the training stage to the running stage, and then how to run it in a video calling platform
-Below is a complete, clean `README.md` you can directly use for GitHub.
+🔥 **Let's dive right into the technical brilliance and methodology of this project!** 🔥
 
 ---
 
-# Hand Sign Detection with Real-Time Video Calling (ISL)
+## 🤝 Hand Sign Detection with Real-Time Video Calling (ISL)
 
-## Overview
+## 🔍 Overview
 
 This project is a real-time **Hand Sign Detection and Communication System** based on **Indian Sign Language (ISL)** integrated with a **live video calling platform using Agora AI**.
 It enables users to communicate through hand signs during a video call by detecting gestures and converting them into readable text in real time.
@@ -35,7 +35,7 @@ The system is designed to assist **deaf and mute individuals** by improving acce
 
 ---
 
-## Features
+## ✨ Features
 
 * Real-time hand sign detection using computer vision
 * Supports Indian Sign Language (ISL) gestures
@@ -47,7 +47,7 @@ The system is designed to assist **deaf and mute individuals** by improving acce
 
 ---
 
-## System Architecture
+## 🏗️ System Architecture
 
 ```
 Webcam → Hand Detection Model → Gesture Classification → Text Output
@@ -57,9 +57,9 @@ Webcam → Hand Detection Model → Gesture Classification → Text Output
 
 ---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-### Software
+### 💻 Software
 
 * Python
 * OpenCV
@@ -68,14 +68,14 @@ Webcam → Hand Detection Model → Gesture Classification → Text Output
 * Agora AI Video Calling SDK
 * NumPy
 
-### Hardware
+### ⚙️ Hardware
 
 * Laptop / PC with webcam
 * Internet connection
 
 ---
 
-## How It Works
+## 🚀 How It Works
 
 1. Webcam captures live video.
 2. Hand landmarks are detected using MediaPipe / vision model.
@@ -86,15 +86,15 @@ Webcam → Hand Detection Model → Gesture Classification → Text Output
 
 ---
 
-## Installation
+## 📥 Installation
 
-### 1. Install Dependencies
+### 1️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Setup Agora
+### 2️⃣ Setup Agora
 
 * Create account at [https://www.agora.io](https://www.agora.io)
 
@@ -115,15 +115,15 @@ CHANNEL_NAME = "test"
 
 ---
 
-## Running the Project
+## 🏃‍♂️ Running the Project
 
-### Start Hand Sign Detection
+### ✋ Start Hand Sign Detection
 
 ```bash
 python detect.py
 ```
 
-### Start Video Call
+### 📞 Start Video Call
 
 ```bash
 python agora_call.py
@@ -133,7 +133,7 @@ Both modules run together for real-time gesture communication.
 
 ---
 
-## Dataset
+## 📊 Dataset
 
 * Custom dataset based on **Indian Sign Language (ISL)**
 * Includes multiple gesture samples per sign
@@ -141,7 +141,7 @@ Both modules run together for real-time gesture communication.
 
 ---
 
-## Model
+## 🧠 Model
 
 * Gesture Classification Model
 * Input: Hand landmarks / processed image
@@ -150,7 +150,7 @@ Both modules run together for real-time gesture communication.
 
 ---
 
-## Use Case
+## 🎯 Use Case
 
 * Communication aid for deaf and mute individuals
 * Accessible video conferencing
@@ -159,7 +159,7 @@ Both modules run together for real-time gesture communication.
 
 ---
 
-## Future Improvements
+## 🔮 Future Improvements
 
 * Speech output (Text-to-Speech)
 * Full sentence formation
@@ -170,7 +170,7 @@ Both modules run together for real-time gesture communication.
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 ├── detect.py
@@ -184,14 +184,14 @@ Both modules run together for real-time gesture communication.
 
 ---
 
-## Author
+## ✍️ Author
 
 **Ashwin Suresh**
 Electronics and Communication Engineering
 
 ---
 
-## License
+## 📜 License
 
 This project is for academic and research purposes.
 
