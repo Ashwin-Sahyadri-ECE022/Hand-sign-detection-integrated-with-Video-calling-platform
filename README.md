@@ -146,7 +146,7 @@ Both modules run together for real-time gesture communication.
 * Gesture Classification Model
 * Input: Hand landmarks / processed image
 * Output: ISL sign label
-* Accuracy: (add your accuracy here)
+* Accuracy: 82%
 
 ---
 
